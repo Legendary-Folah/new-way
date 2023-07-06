@@ -1,4 +1,5 @@
 import './App.css';
+import Form from './components/Form';
 // import FruitList from './components/FruitList';
 // import Product from './components/Product';
 // import ConditionalComponent from './components/ConditionalComponent';
@@ -13,7 +14,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <FruitList />
+      <Form />
     </div>
   );
 }
