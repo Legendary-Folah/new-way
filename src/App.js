@@ -1,5 +1,5 @@
 import './App.css';
-import FruitList from './components/FruitList';
+// import FruitList from './components/FruitList';
 // import Product from './components/Product';
 // import ConditionalComponent from './components/ConditionalComponent';
 // import FunctionalCounter from './components/FunctionalCounter';
