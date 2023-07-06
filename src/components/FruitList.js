@@ -2,7 +2,7 @@ import React from 'react';
 
 function FruitList() {
  
-    const fruits = ['apple', 'mango', 'banana', 'pineapple'];
+    const fruits = ['apple', 'corn', 'mango', 'banana', 'pineapple'];
 
   return (
 
