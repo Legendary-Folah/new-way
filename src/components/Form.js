@@ -20,7 +20,7 @@ class Form extends Component {
             <input 
                 onChange={this.handleChange} 
                 type='text' 
-                value={} 
+                value={this.state.firstname} 
             />
         </form>
       </div>
