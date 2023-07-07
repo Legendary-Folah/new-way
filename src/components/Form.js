@@ -3,7 +3,8 @@ import React, { Component } from 'react'
 class Form extends Component {
 
     state = {
-        firstname: ''
+        firstname: '',
+        lastname: ''
     }
 
     // the onChange method.
@@ -11,6 +12,10 @@ class Form extends Component {
         this.setState({
             firstname: event.target.value,
         })
+    }
+
+    handleLastNameChange = (event) => {
+        this.
     }
 
   render() {
