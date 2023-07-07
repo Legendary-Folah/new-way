@@ -24,7 +24,7 @@ class Form extends Component {
     return (
       <div>
         Form
-        <form>
+        <form onSubmit={this.handleSubmit}>
             <input 
                 onChange={this.handleChange} 
                 type='text' 
