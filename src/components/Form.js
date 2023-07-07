@@ -20,6 +20,13 @@ class Form extends Component {
         })
     }
 
+    handleSubmit = (event) => {
+        console.log({
+            fname: this.state.firstname,
+            lname: this.state.lastname
+        })
+    }
+
   render() {
     return (
       <div>
