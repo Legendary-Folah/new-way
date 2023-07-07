@@ -15,7 +15,9 @@ class Form extends Component {
     }
 
     handleLastNameChange = (event) => {
-        this.
+        this.setState({
+            lastname: event.target.value,
+        })
     }
 
   render() {
