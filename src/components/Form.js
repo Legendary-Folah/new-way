@@ -36,6 +36,9 @@ class Form extends Component {
                 type='text'
                 value={this.state.lastname}
             />
+
+            <button>Submit</button>
+
         </form>
       </div>
     )
