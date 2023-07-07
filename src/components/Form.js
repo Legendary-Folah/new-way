@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 class Form extends Component {
-    
+
     state = {
         firstname: ''
     }
@@ -22,6 +22,12 @@ class Form extends Component {
                 onChange={this.handleChange} 
                 type='text' 
                 value={this.state.firstname} 
+            />
+
+            <input 
+                onChange={this.handleLastNameChange}
+                type='text'
+                value={}
             />
         </form>
       </div>
