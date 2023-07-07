@@ -34,7 +34,7 @@ class Form extends Component {
             <input 
                 onChange={this.handleLastNameChange}
                 type='text'
-                value={}
+                value={this.state.lastname}
             />
         </form>
       </div>
