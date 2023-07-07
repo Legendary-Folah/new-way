@@ -6,7 +6,11 @@ export class Form extends Component {
       <div>
         Form
         <form>
-            <input type='text' value='' />
+            <input 
+                onChange={this.handleChange} 
+                type='text' 
+                value={} 
+            />
         </form>
       </div>
     )
