@@ -6,6 +6,7 @@ class Form extends Component {
         firstname: ''
     }
 
+    // the onChange method.
     handleChange = (event) => {
         this.setState({
             firstname: event.target.value,
