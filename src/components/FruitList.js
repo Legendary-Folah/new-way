@@ -15,4 +15,4 @@ function FruitList() {
   )
 }
 
-export default FruitList
+export default FruitList;
