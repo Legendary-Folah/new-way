@@ -37,7 +37,7 @@ class Form extends Component {
                 value={this.state.lastname}
             />
 
-            <button>Submit</button>
+            <button type='submit'>Submit</button>
 
         </form>
       </div>
