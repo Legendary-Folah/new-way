@@ -21,6 +21,7 @@ class Form extends Component {
     }
 
     handleSubmit = (event) => {
+        event.preventDefault();
         console.log({
             fname: this.state.firstname,
             lname: this.state.lastname
