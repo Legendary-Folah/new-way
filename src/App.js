@@ -1,4 +1,5 @@
 import './App.css';
+import FragmentComponent from './components/FragmentComponent';
 // import Form from './components/Form';
 // import FruitList from './components/FruitList';
 // import Product from './components/Product';
@@ -14,7 +15,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      hello
+      <FragmentComponent />
     </div>
   );
 }
