@@ -1,4 +1,5 @@
 import './App.css';
+import Parent from './components/Parent';
 // import FragmentComponent from './components/FragmentComponent';
 import Table from './components/Table';
 // import Form from './components/Form';
@@ -16,7 +17,7 @@ import Table from './components/Table';
 function App() {
   return (
     <div className="App">
-      <Table></Table>
+      <Parent />
     </div>
   );
 }
