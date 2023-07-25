@@ -1,7 +1,7 @@
 import './App.css';
 import Parent from './components/Parent';
 // import FragmentComponent from './components/FragmentComponent';
-import Table from './components/Table';
+// import Table from './components/Table';
 // import Form from './components/Form';
 // import FruitList from './components/FruitList';
 // import Product from './components/Product';
