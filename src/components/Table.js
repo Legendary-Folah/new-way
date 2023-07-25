@@ -3,12 +3,12 @@ import Column from './Column'
 
 function Table() {
   return (
-    <Table>
+    <table>
         <tr>
             <Column />
         </tr>
-    </Table>
+    </table>
   )
 }
 
-export default Table
+export default Table;
