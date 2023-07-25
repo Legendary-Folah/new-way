@@ -4,9 +4,12 @@ import Column from './Column'
 function Table() {
   return (
     <table>
-        <tr>
-            <Column />
-        </tr>
+        <thead></thead>
+            <tbody>
+                <tr>
+                    <Column />
+                </tr>
+            </tbody>
     </table>
   )
 }
