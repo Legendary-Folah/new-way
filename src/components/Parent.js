@@ -10,7 +10,9 @@ function Parent() {
     <div>
         This is a Parent Component
         <h2>Parent Count is {}</h2>
-        <Child />
+        <Child count={childcount}/>
+        <button>Increment Parent Count</button>
+        <button>Increment Child Count</button>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Child() {
+function Child({ childcount }) {
   return (
     <div>Child Count is {}</div>
   )
