@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Child from './Child';
 
 function Parent() {
 
-    
+    const [parentcount, setParentCount] = useState(0);
+    const [childcount, setChildCount] = useState(0);
 
   return (
     <div>
