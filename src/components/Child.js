@@ -7,4 +7,4 @@ function Child({ count }) {
   )
 }
 
-export default Child;
+export default React.memo(Child);
