@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Child({ childcount }) {
+function Child({ count }) {
   return (
-    <div>Child Count is {}</div>
+    <div>Child Count is {count}</div>
   )
 }
 
