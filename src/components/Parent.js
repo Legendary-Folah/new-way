@@ -6,13 +6,21 @@ function Parent() {
     const [parentcount, setParentCount] = useState(0);
     const [childcount, setChildCount] = useState(0);
 
+        const handleParentCount = () => {
+            setParentCount(parentcount + 1);
+        }
+
+        const handleChildParent = () => {
+            setChildCount(childcount + 1);
+        }
+
   return (
     <div>
         This is a Parent Component
-        <h2>Parent Count is {}</h2>
+        <h2>Parent Count is {parentcount}</h2>
         <Child count={childcount}/>
-        <button>Increment Parent Count</button>
-        <button>Increment Child Count</button>
+        <button onClick={handleParentCount}>Increment Parent Count</button>
+        <button onClick={handleChildParent}>Increment Child Count</button>
     </div>
   )
 }
